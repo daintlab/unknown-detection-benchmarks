@@ -1,9 +1,9 @@
 # unknown-detection-benchmarks
 
-This repository contains the code for "A Unified Benchmark for Unknown Detection Capability of Deep Neural Networks.”
+This repository contains the code for "A Unified Benchmark for Unknown Detection Capability of Deep Neural Networks.” A part of code for comparison methods has been based on the public code of each method such as [Correctness Ranking Loss](https://github.com/daintlab/confidence-aware-learning), [Evidential Deep Learning](https://github.com/dougbrion/pytorch-classification-uncertainty), [AugMix](https://github.com/google-research/augmix), [Outlier Exposure](https://github.com/hendrycks/outlier-exposure) and [OpenMax](https://github.com/abhijitbendale/OSDN).
 
 ## Overview
-![Overall Concept](./img/framework.png)
+![Framework](./img/framework.png)
 We argue that tasks including misclassification detection, open-set recognition and out-of-distribution detection, which are related to mitigate over-confident predictions should be treated as fundamentally an identical problem because an ideal model should possess detection capability for all those tasks. Therefore, we introduce the unknown detection task, an integration of previous individual tasks, for a rigorous examination of the detection capability of deep neural networks on a wide spectrum of unknown samples. To this end, unified benchmark datasets on different scales were constructed and the unknown detection capabilities of existing popular methods were subject to comparison.
 
 ### Requirements
