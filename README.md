@@ -54,7 +54,7 @@ directory
   |     dropout      | str |         float        |                    architecture for training                   |
   |    benchmark     | str |    cifar, imagenet   |                    the name of behchmark data                  |
   |     data-dir     | str |    data directory    |             directory where the all data is located            |
-  |     model-dir    | str |    model directory   |   directory where the save model is located (only in test.py)  |
+  |     model-dir    | str |    model directory   |   directory where the save model is located (only for test)    |
   |     save-dir     | str |    save directory    |            directory where the results will be saved           |
   |    print-freq    | int |         int          |                         print frequency                        |
   |      trial       | str |         str          |                 the number of trial experiments                |
