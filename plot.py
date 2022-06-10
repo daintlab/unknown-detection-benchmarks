@@ -1,3 +1,4 @@
+import os
 import matplotlib.pyplot as plt
 
 def training_plot(trn_log, tst_log, save_path):
